@@ -1,0 +1,44 @@
+name = Playbox Theme
+description = A Kalatheme subtheme powered by Twitter Bootstrap & Science.
+base theme = kalatheme
+core = 7.x
+
+regions[content] = Content
+regions[footer] = Footer
+
+stylesheets[all][] = css/main.css
+stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/syntax.css
+stylesheets[all][] = css/meflat-blue.css
+stylesheets[all][] = css/tweaks.css
+
+scripts[] = js/jquery.easypiechart.js
+scripts[] = js/modernizr.min.js
+scripts[] = js/respond.min.js
+scripts[] = js/custom.js
+
+features[] = logo
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+settings[toggle_name] = 0
+settings[toggle_slogan] = 0
+
+fonts[google_fonts_api][] = "Roboto Slab&subset=latin#700"
+fonts[google_fonts_api][] = "Roboto Slab&subset=latin#regular"
+fonts[google_fonts_api][] = "Titillium Web&subset=latin#200"
+fonts[google_fonts_api][] = "Titillium Web&subset=latin#200italic"
+fonts[google_fonts_api][] = "Titillium Web&subset=latin#300"
+fonts[google_fonts_api][] = "Titillium Web&subset=latin#300italic"
+fonts[google_fonts_api][] = "Titillium Web&subset=latin#600"
+fonts[google_fonts_api][] = "Titillium Web&subset=latin#600italic"
+fonts[google_fonts_api][] = "Titillium Web&subset=latin#700"
+fonts[google_fonts_api][] = "Titillium Web&subset=latin#700italic"
+fonts[google_fonts_api][] = "Titillium Web&subset=latin#900"
+fonts[google_fonts_api][] = "Titillium Web&subset=latin#italic"
+fonts[google_fonts_api][] = "Titillium Web&subset=latin#regular"
+
